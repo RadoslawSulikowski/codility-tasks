@@ -12,7 +12,7 @@ public class TapeEquilibrium{
             sumAbs += abs(A[i]);
         }
 
-        int minimalDiference = abs(sumAbs), partSum = 0, diference = 0;
+        int minimalDifference = abs(sumAbs), partSum = 0, diference = 0;
 
         for(int i = 0; i < A.length - 1; i++){
 
@@ -22,18 +22,24 @@ public class TapeEquilibrium{
             if( diference == 0) {
                 return diference;
             }
-            if(diference < minimalDiference){
-                minimalDiference = diference;
+            if(diference < minimalDifference){
+                minimalDifference = diference;
             }
         }
-        return minimalDiference;
+        return minimalDifference;
     }
     public static void main(String[] args){
-        int[] A = {3, 1, 2, 4, 3};
-        int[] B = {-1000, 1000};
-        int solution = solution(A);
-        System.out.println(solution);
-        solution = solution(B);
-        System.out.println(solution);
+//        int[] A = {3, 1, 2, 4, 3};
+//        int[] B = {-1000, 1000};
+//        int solution = solution(A);
+//        System.out.println(solution);
+//        solution = solution(B);
+//        System.out.println(solution);
+
+        System.out.println("A: " +(int) 'A');
+        System.out.println("C: " +(int) 'C');
+        System.out.println("G: " +(int) 'G');
+        System.out.println("T: " +(int) 'T');
+
     }
 }
