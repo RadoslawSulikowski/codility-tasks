@@ -29,4 +29,23 @@ public class FrogRiverOne{
         }
         return -1;
     }
+//    time complexity: O(N)
+//    public int solution(int X, int[] A) {
+//        int [] B = new int [X];
+//        int sum = 0;
+//        for( int i = 1; i < X + 1; i++) {
+//            B[i - 1] = i;
+//            sum += i;
+//        }
+//        for (int i = 0; i < A.length; i++) {
+//            if (B[A[i] - 1] != 0) {
+//                sum -= A[i];
+//                B[A[i] - 1] = 0;
+//            }
+//            if (sum == 0) {
+//                return i;
+//            }
+//        }
+//        return -1;
+//    }
 }

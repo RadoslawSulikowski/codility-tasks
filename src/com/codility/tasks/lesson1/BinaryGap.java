@@ -32,7 +32,9 @@ public class BinaryGap{
         return binaryGap;
     }
     public static void main(String[] args) {
-        BinaryGap sample = new BinaryGap();
-        sample.solution(34);
+        int[] a = new int [10];
+        for(int i :a) {
+            System.out.println(i);
+        }
     }
 }

@@ -5,8 +5,7 @@ public class FrogJmp{
 
         if((Y - X) % D == 0) {
             return (Y - X) / D;
-        } else {
-            return (Y - X) / D  + 1;
         }
+        return (Y - X) / D  + 1;
     }
 }

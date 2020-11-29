@@ -3,7 +3,7 @@ package com.codility.tasks.lesson2;
 public class CyclicRotation {
     public int[] solution(int[] A, int K) {
         int [] B = new int [A.length];
-        if (K % A.length == 0) {
+        if (A.length == 0 || K % A.length == 0) {
             return A;
         } else {
             int R = K % A.length;
